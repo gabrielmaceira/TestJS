@@ -132,6 +132,13 @@ const person2 = Person.nameAgeSexInstance(values.name, values.age, values.sex);
 
 const person3 = Person.noDataInstance();
 
+person3.setName(values.name);
+person3.setAge(values.age);
+person3.setSex(values.sex);
+person3.setWeight(values.weight);
+person3.setHeight(values.height);
+
+
 console.log("PERSON 1 IMC:", person1.calculateIMC());
 console.log("PERSON 2 IMC:", person2.calculateIMC());
 console.log("PERSON 3 IMC:", person3.calculateIMC());
